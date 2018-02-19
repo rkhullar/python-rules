@@ -33,7 +33,7 @@ class ScratchTester(unittest.TestCase):
 
     def test2(self):
 
-        self.assertIsNone(Operator['eq'])
+        self.assertRaises(Exception, lambda: Operator['eq'])
         self.assertEqual(Operator('assign'), TransformOperator.eq)
         self.assertEqual(Operator['add'], TransformOperator.add)
         self.assertEqual(Operator('or'), JunctionOperator.o)
