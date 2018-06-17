@@ -11,6 +11,7 @@ Coming Soon!
 Testing
 =======
 
-.. code-block:: sh
+.. code-block:: console
+
    pip install nose
    nosetests
