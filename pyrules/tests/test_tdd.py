@@ -1,9 +1,8 @@
 import unittest
 
-from typing import Generator
-from typing import List
+from typing import Generator, List
 
-from ..model import *
+from .model import *
 
 
 def build_rule_from_dict(definition: Dict) -> Rule:
